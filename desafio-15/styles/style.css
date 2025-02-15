@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-
+iframe {
+    border-radius: 5px;
+}
 
 #fundo {
     margin: 0px;
