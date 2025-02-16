@@ -20,7 +20,7 @@ article {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px; 
+    width: 270px; 
     border-radius: 10px;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.326)
 }
@@ -28,7 +28,6 @@ article {
 div#conteudo {
     display: block;
     padding: 10px;
-    margin: ;
 }
 
 div#conteudo > h1 {
@@ -53,24 +52,34 @@ div#imagem {
     margin: 0px;
 }
 
-div.campo {
-    margin-bottom: 3px;
-    display: block;
-    background-color: #613381c6;
-    width: 100%;
+.campo {
+    
+    background-color: #603381;
     border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+label {
+    position: fixed;       
+}
+
+
+#iemail, #isenha {
+    width: 215px;
+    height: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.material-symbols-outlined {
+    font-size: 25px;
     color: white;
 }
 
-div.campo > input {     
-    border-radius: 5px;
-    height: 37px;
-    border: none;
-    width: 200px;
-}
-
-
-div#botoes > input {   
+#entrar{   
     width: 100%; 
     padding: 8px;
     background-color: #4CA39D;
@@ -78,7 +87,8 @@ div#botoes > input {
     border-radius: 5px;
 }
 
-div#botoes > a {
+
+#esqueci {
     border-radius: 5px;
     margin-top: 3px;
     color: black;
@@ -91,3 +101,11 @@ div#botoes > a {
     background-color: white;
 }
 
+#esqueci:hover, #entrar:hover {
+    background-color: #397a76;
+}
+
+.campo:hover {
+    background-color: #4a2763;
+
+}

@@ -22,22 +22,21 @@
                     Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
                 </p>
                 <div id="formulario">
-                    <form action="login.php" >
-                        <div class="campo">                            
-                            <label for="iemail"> <span class="material-symbols-outlined">login</span> </label>
-                            <input type="email" name="email" id="iemail" >
+                    <form action="loginphp" autocomplete="on" method="post">                                                                                                                
+                        <div class="campo">
+                            <label for="iemail"> <span class="material-symbols-outlined">face </span> </label>
+                            <input type="email" name="email" id="iemail" required autocomplete="email" placeholder=" Digite seu login...">
+                        </div>                           
+                                                                                                                        
+                        <div class="campo">
+                            <label for="isenha"> <span class="material-symbols-outlined">key </span> </label>
+                            <input type="password" name="senha" id="isenha" required autocomplete="new-password" minlength="8" maxlength="30" placeholder=" Digite sua senha...">
                         </div>
-
-                        <div class="campo" >                            
-                            <label for="isenha"> <span class="material-symbols-outlined">key</span> </label>
-                            <input  type="password" name="senha" id="isenha" >
-                        </div>
-
+                                                    
                         <div id="botoes" >
-                            <input  type="submit" value="Entrar" > <br>
-                            <a  href="#">Esqueci a senha</a>
-                        </div>
-                        
+                            <input type="submit" value="Entrar" id="entrar"> <br>
+                            <a href="#" id="esqueci">Esqueci a senha</a>
+                        </div>                        
                     </form>
                 </div>
             </div>
