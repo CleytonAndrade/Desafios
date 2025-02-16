@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Mobile */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {   
+    background-color: #603381;
+}
+
+article {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.326)
+}
+
+div#conteudo {
+    display: block;
+    padding: 10px;
+    margin: ;
+}
+
+div#conteudo > h1 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 2em;
+
+}
+
+div#conteudo > p {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+} 
+
+div#imagem {
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(../images/oceam.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin: 0px;
+}
+
+div.campo {
+    margin-bottom: 3px;
+    display: block;
+    background-color: #613381c6;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+}
+
+div.campo > input {     
+    border-radius: 5px;
+    height: 37px;
+    border: none;
+    width: 200px;
+}
+
+
+div#botoes > input {   
+    width: 100%; 
+    padding: 8px;
+    background-color: #4CA39D;
+    border: 1px transparent;
+    border-radius: 5px;
+}
+
+div#botoes > a {
+    border-radius: 5px;
+    margin-top: 3px;
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid #4ca39d74;
+    text-align: center;  
+    background-color: white;
+}
+
