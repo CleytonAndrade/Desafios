@@ -71,6 +71,7 @@ label {
     margin-left: 30px;
     border-radius: 5px;
     border: none;
+    background-color: #92D0C9;
 }
 
 
@@ -82,16 +83,17 @@ label {
 #entrar{   
     width: 100%; 
     padding: 8px;
-    background-color: #4CA39D;
+    background-color: #51AAA5;
     border: 1px transparent;
     border-radius: 5px;
+    color: white;
 }
 
 
 #esqueci {
     border-radius: 5px;
     margin-top: 3px;
-    color: black;
+    color: #377e76;
     background-color: white;
     display: block;
     padding: 8px;
@@ -102,10 +104,10 @@ label {
 }
 
 #esqueci:hover, #entrar:hover {
-    background-color: #397a76;
+    background-color: #29655C;
+    color: black;
 }
 
 .campo:hover {
-    background-color: #4a2763;
-
+    background-color: #361d48;
 }
